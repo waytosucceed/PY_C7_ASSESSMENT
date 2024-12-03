@@ -1,0 +1,221 @@
+{
+  "heading": "Select a topic",
+  "topics": [
+    {
+      "heading": "INTRODUCTION AND BASICS",
+      "questions": [
+        {
+            "questionNo": 1,
+            "question": "What is the correct way to write a comment in Python?",
+            "options": ["#Comment", "//Comment", "/*Comment*/", "< !--Comment-->"],
+            "answer": 0
+        },
+        {
+            "questionNo": 2,
+            "question": "What does input() function do?",
+            "options": ["Prints output.", "Converts a value to an integer.", "Ends a program.", "Takes input."],
+            "answer": 3
+        },
+        {
+            "questionNo": 3,
+            "question": "What will be the output of the following code?<br>print(type(42))",
+            "options": ["< class 'float' >", "< class 'int' >", "< class 'str' >", "< class 'bool' >"],
+            "answer": 1
+        },
+        {
+            "questionNo": 4,
+            "question": "What will be the output of the following code?<br>name = \"Aman\"<br>print(\"Hello, \" + name + \"!\")",
+            "options": ["Hello, Aman!", "Hello name!", "Hello, Aman", "Syntax Error"],
+            "answer": 0
+        }
+    ]   
+    },
+    {
+      "heading": "ARITHMETIC OPERATORS",
+      "questions": [
+        {
+            "questionNo": 5,
+            "question": "What will be the output of the following code?<br>print(45%2)",
+            "options": ["0", "1", "22", "22.5"],
+            "answer": 1
+        },
+        {
+            "questionNo": 6,
+            "question": "What will be the output of the following code?<br>print(10/2)",
+            "options": ["0", "1", "5", "2"],
+            "answer": 2
+        },
+        {
+            "questionNo": 7,
+            "question": "What will be the output of the following code?<br>print(3**3)",
+            "options": ["9", "6", "1", "27"],
+            "answer": 3
+        },
+        {
+            "questionNo": 8,
+            "question": "What is the datatype of the value returned by the input() function?",
+            "options": ["str", "int", "float", "Depends on what the user has entered"],
+            "answer": 0
+        }
+    ]
+      
+    },
+    {
+      "heading": "RELATIONAL OPERATORS AND CONDITIONAL PROGRAMMING",
+      "questions": [
+        {
+            "questionNo": 9,
+            "question": "What can be used to make decisions in programming?",
+            "options": ["print()", "input()", "if statement", "None of the above"],
+            "answer": 2
+        },
+        {
+            "questionNo": 10,
+            "question": "Which operator is used to check if 2 values are not equal?",
+            "options": ["==", "!=", "<", ">"],
+            "answer": 1
+        },
+        {
+            "questionNo": 11,
+            "question": "What does the == operator do in Python?",
+            "options": [
+                "Assigns a value to a variable",
+                "Checks if two values are equal",
+                "Checks if two values are not equal",
+                "Compares if one value is greater than another"
+            ],
+            "answer": 1
+        }
+    ]
+    
+      
+    },{
+      "heading": "LOGICAL OPERATORS AND CONDITIONAL PROGRAMMING",
+      "questions": [
+        {
+            "questionNo": 12,
+            "question": "The and operator returns True if ______",
+            "options": [
+                "Any one condition is True",
+                "All the conditions are True",
+                "At least two conditions are True",
+                "None of the above"
+            ],
+            "answer": 1
+        },
+        {
+            "questionNo": 13,
+            "question": "What does the or operator do in Python?",
+            "options": [
+                "Returns True if both conditions are true",
+                "Returns True if at least one condition is true",
+                "Returns False if both conditions are false",
+                "Both b and c"
+            ],
+            "answer": 3
+        },
+        {
+            "questionNo": 14,
+            "question": "Which of the following statements is true about the not operator?",
+            "options": [
+                "It reverses the value of a relational operator.",
+                "It checks if a condition is false.",
+                "It combines two conditions where both must be true.",
+                "It does nothing."
+            ],
+            "answer": 1
+        }
+    ]
+    
+      
+    },
+    {
+      "heading": "STRINGS FORMATTING",
+      "questions": [
+        {
+            "questionNo": 15,
+            "question": "What will the following code print?<br>name=\"Neha\"<br>print(f\"Hello, {name}!\")",
+            "options": [
+                "Hello, Neha!",
+                "Hello, {name}!",
+                "Hello, name!",
+                "None of the above"
+            ],
+            "answer": 0
+        },
+        {
+            "questionNo": 16,
+            "question": "Which of the following is NOT a valid string?",
+            "options": [
+                "\"Hello, World!\"",
+                "'Hello, World!'",
+                "\"\"\"Hello, World!\"\"\"",
+                "Hello, World!"
+            ],
+            "answer": 3
+        },
+        {
+            "questionNo": 17,
+            "question": "What will be the output of the following code?<br>sentence=’How are you?’<br>print(sentence[2:5])",
+            "options": [
+                "w ar",
+                "ow are",
+                "ow a",
+                "w a"
+            ],
+            "answer": 3
+        },
+        {
+            "questionNo": 18,
+            "question": "Which operator is used to concatenate strings in Python?",
+            "options": [
+                "*",
+                "&",
+                "|",
+                "+"
+            ],
+            "answer": 3
+        }
+    ]
+      
+    },
+    {
+      "heading": "STRING METHODS",
+      "questions": [
+        {
+          "questionNo": 19,
+          "question": "Which method is used to convert a string to uppercase?",
+          "options": [
+              "s.upperCase()",
+              "s.upper()",
+              "s.to_upper()",
+              "s.toUpper()"
+          ],
+          "answer": 1
+      },
+      {
+          "questionNo": 20,
+          "question": "Which method removes whitespace from the beginning and end of a string?",
+          "options": [
+              ".strip()",
+              ".remove()",
+              ".cut()",
+              ".clear()"
+          ],
+          "answer": 0
+      }
+      ]
+      
+    },
+     {
+      "heading": "Project",
+      "questions": [
+        {
+          "questionNo": 1,
+          "question": "</ol> 👉 <a href='https://colab.research.google.com/drive/1JE-VFuLB4Js_RzlF2nlhEe9eTJr_oVnS?usp=sharing' target='_blank' class='button'>Let's Start</a> "
+         
+        }
+      ]
+    }
+  ]
+}

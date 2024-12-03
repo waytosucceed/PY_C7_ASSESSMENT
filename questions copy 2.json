@@ -1,0 +1,66 @@
+{
+  "heading": "Select a topic",
+  "topics": [
+    {
+      "heading": "Arithmetic operations",
+      "questions": [
+        {
+          "questionNo": 1,
+          "question": "What is the result of (10 - 4 * 5) / 2?",
+          "options": ["0", "10", "-5", "-15"],
+          "answer": 2
+        },
+        {
+          "questionNo": 2,
+          "question": "What is the result of the expression 4 ** 2 // 3 + 2?",
+          "options": ["4", "6", "7", "8"],
+          "answer": 2
+        },
+        {
+          "questionNo": 3,
+          "question": "If x = 25 and y = 7, what is the result of x % y?",
+          "options": ["3", "4", "2", "1"],
+          "answer": 1
+        },
+        {
+          "questionNo": 4,
+          "question": "What do you mean by order of precedence?",
+          "options": [
+            "Order in which operations are evaluated",
+            "Alphabetical order of variables",
+            "Order in which lines are executed in python",
+            "The number of digits in the result of an expression"
+          ],
+          "answer": 0
+        },
+        {
+          "questionNo": 5,
+          "question": "What is the correct order of operations of arithmetic operators in Python?",
+          "options": [
+            "DASPEM",
+            "PEMSAD",
+            "DEMPAS",
+            "PEMDAS"
+          ],
+          "answer": 3
+        },
+        {
+          "questionNo": 1,
+          "question": " Project<br>You are an architect in the city of Mathematicia. You are known for your problem-solving and artistic skills. In this city, Numpy is planning to build a skyscraper named Arithmeticia. He is a Python programmer. This person already has a blueprint of a skyscraper created by another architect but, he is not satisfied and would like to make some changes to it. The number of floors in a skyscraper is 20, the width is 5000, and the height is 500. Since Numpy is a techie he wants you to write a computer program using the knowledge of arithmetic operators you have learned in this class to make changes in the blueprint. Here is what you have to do: <br> <ol> <li> Create variables of floors, width, and height and store 20, 5000, and 500 inside it respectively.</li> <li> Print the initial height and width Increase height by 100 and print it.</li> <li> Subtract 200 from the width to allocate the space for windows and print that.</li> <li> Calculate the total floor area and print that.</li> <li> Considering each room will have an area of 5000, calculate the number of rooms per floor and print that.</li></ol> "
+         
+        }
+      ]
+      
+    },
+     {
+      "heading": "Project",
+      "questions": [
+        {
+          "questionNo": 1,
+          "question": " Project<br> 👉<a href='./Project/index.html' target='_blank'>Click here and follow the instructions</a>  <br> After Competing the project copy paste the link here "
+         
+        }
+      ]
+    }
+  ]
+}
